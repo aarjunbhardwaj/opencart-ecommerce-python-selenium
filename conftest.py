@@ -9,6 +9,6 @@ def setup():
     driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
     driver.maximize_window()
     driver.implicitly_wait(10)
-    driver.get("https://demo.opencart.com/")
+    driver.get("https://tutorialsninja.com/demo/")
     yield driver
     driver.quit()
